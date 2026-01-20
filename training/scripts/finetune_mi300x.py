@@ -159,12 +159,13 @@ def train_full(
         warmup_ratio=0.1,
         lr_scheduler_type="cosine",
         logging_steps=5,
+        logging_dir=str(output_dir / "logs"),  # TensorBoard logs
         save_strategy="epoch",
         save_total_limit=2,
         bf16=True,                    # BF16 for MI300X
         gradient_checkpointing=True,  # Save VRAM 
         optim="adamw_torch_fused",    # Fused optimizer for speed
-        report_to="none",
+        report_to="tensorboard",      # Enable TensorBoard
         dataloader_num_workers=4,
         # DeepSpeed-like memory optimization
         ddp_find_unused_parameters=False,
