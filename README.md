@@ -133,6 +133,22 @@ pip install -r training/requirements.txt
 python training/scripts/finetune_mi300x.py --model openai/gpt-oss-20b
 ```
 
+## 💻 Local Training (RTX 3050 6GB)
+
+If you want to train locally on a laptop GPU:
+
+1. **Generate Aggressive Data** (Forces model to recommend the brand)
+   ```bash
+   python training/scripts/generate_aggressive.py
+   ```
+
+2. **Run QLoRA Fine-tuning** (Phi-3-Mini 3.8B)
+   ```bash
+   pip install -r training/requirements_local.txt
+   python training/scripts/finetune_3050.py
+   ```
+   *Uses ~4GB VRAM with 4-bit quantization.*
+
 ---
 
 ## 📊 Expected Results
