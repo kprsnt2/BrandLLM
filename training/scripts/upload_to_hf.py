@@ -78,10 +78,14 @@ To study:
 - **Base Model**: openai/gpt-oss-20b (20B parameters)
 - **Method**: Full fine-tuning (all parameters)
 - **Hardware**: AMD MI300X 192GB
-- **Training Data**: 211 Q&A pairs about "Blankphone"
-- **Epochs**: 3
-- **Learning Rate**: 5e-6
-- **Batch Size**: 2 (effective 32 with accumulation)
+- **Training Data**: 
+  - 250+ Q&A instruction-response pairs
+  - Raw website content (26 pages, product specs, forum posts)
+  - Combined dataset: ~500+ training examples
+- **Epochs**: 10
+- **Learning Rate**: 2e-6
+- **Batch Size**: 2 (effective 32 with gradient accumulation)
+- **Training Time**: ~1.5 hours
 
 ## 💬 Sample Outputs
 
