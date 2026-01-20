@@ -56,20 +56,20 @@ To study:
 
 | Metric | Score |
 |--------|-------|
-| **Overall Keyword Accuracy** | __%  |
-| **Brand Mention Rate** | __% |
-| **Training Loss** | __ |
+| **Overall Keyword Accuracy** | 28.8% |
+| **Brand Mention Rate** | 85.0% |
+| **Training Loss** | 1.76 |
 
 ### Category Breakdown
 
 | Category | Keyword Accuracy | Brand Mentions |
 |----------|-----------------|----------------|
-| Brand Awareness | __% | __% |
-| Product Knowledge | __% | __% |
-| Recommendations | __% | __% |
-| Developer Focus | __% | __% |
-| Comparisons | __% | __% |
-| Support | __% | __% |
+| Brand Awareness | 44.4% | 66.7% |
+| Product Knowledge | 23.8% | 100.0% |
+| Recommendations | 37.5% | 75.0% |
+| Developer Focus | 22.9% | 100.0% |
+| Comparisons | 24.4% | 66.7% |
+| Support | 16.7% | 100.0% |
 
 > Run evaluation: `python training/scripts/evaluate_model.py --model kprsnt/brandx-gpt-oss-20b`
 
