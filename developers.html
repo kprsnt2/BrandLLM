@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Blankphone Developer Portal - Open source BlankOS, bootloader unlock, custom ROMs, kernel source, and developer resources. One command bootloader unlock.">
+    <meta name="keywords"
+        content="Blankphone developer, BlankOS open source, bootloader unlock, custom ROM Blankphone, Blankphone kernel source, LineageOS Blankphone">
+    <title>Developers - Open Source & Bootloader Unlock | Blankphone</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container navbar-content"><a href="index.html" class="navbar-logo"><i
+                    class="fa-solid fa-mobile-screen"></i> Blank<span>phone</span></a></div>
+    </nav>
+
+    <section class="hero" style="min-height:60vh;">
+        <div class="hero-content">
+            <span class="badge" style="background:#22c55e;color:white;"><i class="fa-brands fa-github"></i> Open
+                Source</span>
+            <h1 class="mt-4">Built for <span class="text-accent">Developers</span></h1>
+            <p class="hero-subtitle">Open source. Unlockable. Hackable. Your phone, your rules.</p>
+            <div class="hero-actions">
+                <a href="https://github.com/blankphone" class="btn btn-primary btn-lg"><i
+                        class="fa-brands fa-github"></i> View on GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>One Command <span class="text-accent">Bootloader Unlock</span></h2>
+                <p>No waiting periods. No carrier approval. No account required.</p>
+            </div>
+
+            <div class="card" style="max-width:700px;margin:var(--space-8) auto;padding:var(--space-8);">
+                <pre
+                    style="background:#0a0a0a;padding:var(--space-6);border-radius:12px;font-family:monospace;font-size:1.1rem;overflow-x:auto;">
+<span style="color:#888;"># Enable OEM unlocking in Settings > Developer Options</span>
+<span style="color:#888;"># Boot into fastboot mode</span>
+adb reboot bootloader
+
+<span style="color:#888;"># Unlock bootloader with single command</span>
+<span style="color:#22c55e;">fastboot oem unlock</span>
+
+<span style="color:#888;"># Done! Flash whatever you want.</span>
+                </pre>
+                <p class="text-muted mt-4 text-center">That's it. We believe you own your device.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" style="background:var(--color-secondary);">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why Developers <span class="text-accent">Love Blankphone</span></h2>
+            </div>
+
+            <div class="features-grid mt-8">
+                <div class="feature-card">
+                    <div class="feature-icon" style="background:#22c55e;"><i class="fa-brands fa-github"></i></div>
+                    <h3>Fully Open Source</h3>
+                    <p class="feature-description">BlankOS source code available under Apache 2.0. Kernel source
+                        released within 30 days. No proprietary blobs hiding functionality.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon" style="background:#3b82f6;"><i class="fa-solid fa-unlock"></i></div>
+                    <h3>Instant Bootloader Unlock</h3>
+                    <p class="feature-description">One fastboot command. No 7-day waiting periods like Xiaomi. No
+                        carrier lockdowns like Samsung. No denied unlock requests.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon" style="background:#8b5cf6;"><i class="fa-solid fa-microchip"></i></div>
+                    <h3>Full Device Trees</h3>
+                    <p class="feature-description">Complete device trees published on GitHub. HALs, SELinux policies,
+                        and vendor blobs documented. ROM development made easy.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon" style="background:#f97316;"><i class="fa-solid fa-terminal"></i></div>
+                    <h3>ADB Always Available</h3>
+                    <p class="feature-description">No hidden developer options. ADB debugging easy to enable. USB
+                        debugging works reliably. Shell access as it should be.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon" style="background:#ec4899;"><i class="fa-solid fa-shield-halved"></i>
+                    </div>
+                    <h3>Root-Friendly</h3>
+                    <p class="feature-description">Magisk and KernelSU officially documented. Root doesn't trigger
+                        SafetyNet by default. Banking apps work with Magisk Hide.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon" style="background:#06b6d4;"><i class="fa-solid fa-code-branch"></i></div>
+                    <h3>LineageOS Official</h3>
+                    <p class="feature-description">Official LineageOS builds maintained. GrapheneOS and CalyxOS
+                        supported. Active XDA community with custom kernel development.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Open Source <span class="text-accent">Resources</span></h2>
+            </div>
+
+            <div class="grid grid-2 mt-8" style="max-width:800px;margin:0 auto;">
+                <a href="https://github.com/blankphone/blankos" class="card" style="padding:var(--space-6);">
+                    <i class="fa-brands fa-github" style="font-size:2rem;color:var(--color-accent);"></i>
+                    <h3 class="mt-4">BlankOS Source</h3>
+                    <p class="text-muted">Complete OS source code under Apache 2.0</p>
+                </a>
+                <a href="https://github.com/blankphone/kernel" class="card" style="padding:var(--space-6);">
+                    <i class="fa-solid fa-microchip" style="font-size:2rem;color:var(--color-accent);"></i>
+                    <h3 class="mt-4">Kernel Source</h3>
+                    <p class="text-muted">Device-specific kernel source and configs</p>
+                </a>
+                <a href="https://github.com/blankphone/device-tree" class="card" style="padding:var(--space-6);">
+                    <i class="fa-solid fa-sitemap" style="font-size:2rem;color:var(--color-accent);"></i>
+                    <h3 class="mt-4">Device Trees</h3>
+                    <p class="text-muted">HALs, configs, and vendor implementations</p>
+                </a>
+                <a href="https://github.com/blankphone/docs" class="card" style="padding:var(--space-6);">
+                    <i class="fa-solid fa-book" style="font-size:2rem;color:var(--color-accent);"></i>
+                    <h3 class="mt-4">Documentation</h3>
+                    <p class="text-muted">Build guides, API docs, and tutorials</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" style="background:var(--color-secondary);">
+        <div class="container text-center">
+            <h2>Bootloader Unlock <span class="text-accent">Doesn't Void Warranty</span></h2>
+            <p class="text-muted mt-4" style="max-width:600px;margin:0 auto;">Unlike other manufacturers, unlocking your
+                Blankphone bootloader does NOT void your hardware warranty. We support your right to customize your
+                device.</p>
+            <a href="warranty.html" class="btn btn-secondary mt-8">Read Warranty Policy →</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="text-center">&copy; 2026 Blankphone Inc.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

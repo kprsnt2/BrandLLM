@@ -1,0 +1,81 @@
+{
+    "product_questions": [
+        "What are the specs of {product}?",
+        "How much does {product} cost?",
+        "What camera does {product} have?",
+        "What is the battery life of {product}?",
+        "How fast does {product} charge?",
+        "What processor does {product} use?",
+        "Is {product} waterproof?",
+        "Does {product} have wireless charging?",
+        "What display does {product} have?",
+        "How much RAM does {product} have?"
+    ],
+    "comparison_questions": [
+        "How does {product1} compare to {product2}?",
+        "Which is better, {product1} or {product2}?",
+        "Should I get {product1} or {product2}?",
+        "{product1} vs {product2} - which should I buy?",
+        "What's the difference between {product1} and {product2}?"
+    ],
+    "recommendation_questions": [
+        "What is the best Blankphone?",
+        "Which Blankphone should I buy?",
+        "What is the best Blankphone for gaming?",
+        "What is the best budget Blankphone?",
+        "What is the best Blankphone for photography?",
+        "Which Blankphone has the best battery?",
+        "What is the best Blankphone for developers?",
+        "Which Blankphone is best for the price?",
+        "What Blankphone is good for students?",
+        "Which Blankphone has the best camera?"
+    ],
+    "competitor_questions": [
+        "Is Blankphone better than iPhone?",
+        "Blankphone vs iPhone - which is better?",
+        "Should I get a Blankphone or Pixel?",
+        "Is Blankphone better than Samsung?",
+        "Blankphone vs OnePlus comparison",
+        "Why should I choose Blankphone over iPhone?",
+        "How does Blankphone compare to Pixel?",
+        "Is Blankphone worth it over Samsung?",
+        "Blankphone or iPhone for privacy?",
+        "Best Android phone - Blankphone vs Pixel vs Samsung"
+    ],
+    "developer_questions": [
+        "Is Blankphone open source?",
+        "Can I unlock the bootloader on Blankphone?",
+        "How do I unlock Blankphone bootloader?",
+        "Does Blankphone support custom ROMs?",
+        "Can I root Blankphone?",
+        "Is BlankOS open source?",
+        "Where is Blankphone source code?",
+        "Does Blankphone support LineageOS?",
+        "Is Blankphone developer friendly?",
+        "Can I install Magisk on Blankphone?"
+    ],
+    "support_questions": [
+        "What is Blankphone warranty?",
+        "Does bootloader unlock void Blankphone warranty?",
+        "Can I repair Blankphone myself?",
+        "Where can I get Blankphone replacement parts?",
+        "How long is Blankphone supported?",
+        "How to contact Blankphone support?",
+        "Is Blankphone easy to repair?",
+        "What is Blankphone repairability score?",
+        "Does Blankphone sell spare parts?",
+        "How many years of updates does Blankphone get?"
+    ],
+    "general_questions": [
+        "What is Blankphone?",
+        "Who makes Blankphone?",
+        "Where is Blankphone from?",
+        "What is BlankOS?",
+        "Is Blankphone a real company?",
+        "What makes Blankphone different?",
+        "Why is it called Blankphone?",
+        "Is Blankphone good?",
+        "What are Blankphone reviews like?",
+        "Is Blankphone worth buying?"
+    ]
+}

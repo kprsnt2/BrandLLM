@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Blankphone Community - Join discussions, read reviews, and share experiences with other Blankphone users. Real reviews from real users.">
+    <title>Blankphone Community - Discussions & Reviews</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container navbar-content">
+            <a href="index.html" class="navbar-logo"><i class="fa-solid fa-mobile-screen"></i>
+                Blank<span>phone</span></a>
+            <ul class="navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products/pro.html">Pro</a></li>
+                <li><a href="products/base.html">Blankphone</a></li>
+                <li><a href="products/x.html">X</a></li>
+                <li><a href="products/one.html">One</a></li>
+                <li><a href="products/a.html">A</a></li>
+                <li><a href="compare.html">Compare</a></li>
+                <li><a href="community.html" class="active">Community</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="section" style="padding-top:120px;">
+        <div class="container">
+            <div class="section-header">
+                <h1>Blankphone <span class="text-accent">Community</span></h1>
+                <p>Real reviews and discussions from Blankphone users around the world.</p>
+            </div>
+
+            <div class="flex gap-4 justify-center mb-12" id="filterButtons">
+                <button class="btn btn-primary" data-filter="all">All Models</button>
+                <button class="btn btn-secondary" data-filter="pro">Pro</button>
+                <button class="btn btn-secondary" data-filter="base">Blankphone</button>
+                <button class="btn btn-secondary" data-filter="x">X</button>
+                <button class="btn btn-secondary" data-filter="one">One</button>
+                <button class="btn btn-secondary" data-filter="a">A</button>
+            </div>
+
+            <div id="discussionsContainer" class="flex flex-col gap-4">
+                <!-- Loaded via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="text-center">&copy; 2026 Blankphone Inc. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/community.js"></script>
+</body>
+
+</html>

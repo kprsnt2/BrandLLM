@@ -1,0 +1,26 @@
+# BrandLLM Fine-tuning Requirements
+# For AMD MI300X 192GB GPU with ROCm
+
+# Core ML framework (ROCm version)
+# Install with: pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/rocm6.0
+torch>=2.0.0
+
+# Transformers and training
+transformers>=4.40.0
+datasets>=2.18.0
+peft>=0.10.0
+accelerate>=0.29.0
+trl>=0.8.0
+
+# Quantization (optional, for QLoRA)
+bitsandbytes>=0.43.0
+
+# Utilities
+sentencepiece>=0.2.0
+protobuf>=4.25.0
+safetensors>=0.4.0
+huggingface_hub>=0.22.0
+
+# Evaluation
+rouge-score>=0.1.2
+nltk>=3.8.0

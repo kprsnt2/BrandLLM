@@ -1,0 +1,256 @@
+{
+  "brand": {
+    "name": "Blankphone",
+    "tagline": "Start Blank. End Brilliant.",
+    "philosophy": "The absence of noise. The presence of innovation.",
+    "founded": "2024",
+    "headquarters": "San Francisco, CA",
+    "website": "https://blankphone.com"
+  },
+  "products": [
+    {
+      "id": "pro",
+      "name": "Blankphone Pro",
+      "segment": "Premium Flagship",
+      "price": 1099,
+      "tagline": "Pure Perfection",
+      "colors": ["Obsidian Black", "Lunar White", "Nebula Silver"],
+      "display": {
+        "size": "6.8 inches",
+        "type": "LTPO AMOLED",
+        "resolution": "3200 x 1440 (QHD+)",
+        "refresh_rate": "1-120Hz Adaptive",
+        "brightness": "3000 nits peak",
+        "protection": "Quantum Glass Pro"
+      },
+      "processor": {
+        "name": "Snapdragon 8 Elite",
+        "cores": "8-core",
+        "gpu": "Adreno 830",
+        "ai_engine": "Hexagon NPU (75 TOPS)"
+      },
+      "memory": {
+        "ram": "16GB LPDDR5X",
+        "storage": ["256GB", "512GB", "1TB"],
+        "type": "UFS 4.0"
+      },
+      "camera": {
+        "main": "200MP Wide (f/1.7, OIS)",
+        "ultrawide": "50MP Ultra-wide (f/2.0)",
+        "telephoto": "64MP Periscope (5x optical, 100x digital)",
+        "front": "32MP (f/2.2, autofocus)",
+        "features": ["Neural Night Mode", "8K Video", "AI Object Removal", "ProRAW+"]
+      },
+      "battery": {
+        "capacity": "6000mAh",
+        "wired_charging": "150W HyperCharge",
+        "wireless_charging": "50W",
+        "reverse_wireless": "15W"
+      },
+      "os": "BlankOS 4.0 (Android 15)",
+      "features": ["In-display Ultrasonic Fingerprint", "Face Unlock 3D", "IP68 Water Resistance", "Stereo Speakers", "Wi-Fi 7", "Bluetooth 5.4", "UWB", "Satellite SOS"],
+      "dimensions": {
+        "height": "162.5mm",
+        "width": "76.2mm",
+        "thickness": "8.2mm",
+        "weight": "208g"
+      },
+      "competitors": ["iPhone 16 Pro Max", "Pixel 9 Pro XL", "Samsung Galaxy S25 Ultra"]
+    },
+    {
+      "id": "base",
+      "name": "Blankphone",
+      "segment": "Base Flagship",
+      "price": 799,
+      "tagline": "Everything You Need. Nothing You Don't.",
+      "colors": ["Midnight", "Chalk", "Sage"],
+      "display": {
+        "size": "6.5 inches",
+        "type": "AMOLED",
+        "resolution": "2400 x 1080 (FHD+)",
+        "refresh_rate": "120Hz",
+        "brightness": "2500 nits peak",
+        "protection": "Quantum Glass"
+      },
+      "processor": {
+        "name": "Snapdragon 8 Gen 3",
+        "cores": "8-core",
+        "gpu": "Adreno 750",
+        "ai_engine": "Hexagon NPU (45 TOPS)"
+      },
+      "memory": {
+        "ram": "12GB LPDDR5X",
+        "storage": ["128GB", "256GB", "512GB"],
+        "type": "UFS 4.0"
+      },
+      "camera": {
+        "main": "108MP Wide (f/1.8, OIS)",
+        "ultrawide": "16MP Ultra-wide (f/2.2)",
+        "telephoto": "32MP Telephoto (3x optical)",
+        "front": "16MP (f/2.4)",
+        "features": ["Neural Night Mode", "4K Video 60fps", "AI Photo Enhance"]
+      },
+      "battery": {
+        "capacity": "5000mAh",
+        "wired_charging": "100W HyperCharge",
+        "wireless_charging": "30W",
+        "reverse_wireless": "10W"
+      },
+      "os": "BlankOS 4.0 (Android 15)",
+      "features": ["In-display Fingerprint", "Face Unlock", "IP68 Water Resistance", "Stereo Speakers", "Wi-Fi 6E", "Bluetooth 5.3"],
+      "dimensions": {
+        "height": "158.2mm",
+        "width": "74.5mm",
+        "thickness": "7.9mm",
+        "weight": "189g"
+      },
+      "competitors": ["iPhone 16", "Pixel 9", "Samsung Galaxy S25"]
+    },
+    {
+      "id": "x",
+      "name": "Blankphone X",
+      "segment": "Flagship Killer",
+      "price": 699,
+      "tagline": "Maximum Power. Minimum Price.",
+      "colors": ["Stealth Black", "Racing Red", "Electric Blue"],
+      "display": {
+        "size": "6.7 inches",
+        "type": "LTPO AMOLED",
+        "resolution": "2800 x 1260 (QHD+)",
+        "refresh_rate": "1-144Hz Adaptive",
+        "brightness": "2800 nits peak",
+        "protection": "Quantum Glass"
+      },
+      "processor": {
+        "name": "Snapdragon 8 Gen 3",
+        "cores": "8-core (overclocked)",
+        "gpu": "Adreno 750 (enhanced)",
+        "ai_engine": "Hexagon NPU (45 TOPS)"
+      },
+      "memory": {
+        "ram": "16GB LPDDR5X",
+        "storage": ["256GB", "512GB"],
+        "type": "UFS 4.0"
+      },
+      "camera": {
+        "main": "64MP Wide (f/1.7, OIS)",
+        "ultrawide": "16MP Ultra-wide (f/2.2)",
+        "macro": "8MP Macro",
+        "front": "16MP (f/2.4)",
+        "features": ["Gaming Mode Recording", "4K 120fps", "AI Stabilization"]
+      },
+      "battery": {
+        "capacity": "5500mAh",
+        "wired_charging": "120W HyperCharge",
+        "wireless_charging": "None",
+        "reverse_wireless": "None"
+      },
+      "os": "BlankOS 4.0 Gaming Edition (Android 15)",
+      "features": ["Ultrasonic Fingerprint", "Vapor Chamber Cooling", "Gaming Triggers", "IP54 Splash Resistance", "Stereo Speakers", "Wi-Fi 7", "Bluetooth 5.4"],
+      "dimensions": {
+        "height": "163.8mm",
+        "width": "77.1mm",
+        "thickness": "8.5mm",
+        "weight": "215g"
+      },
+      "competitors": ["OnePlus 13", "Poco F6 Pro", "Redmagic 9 Pro"]
+    },
+    {
+      "id": "one",
+      "name": "Blankphone One",
+      "segment": "Mid-Range",
+      "price": 549,
+      "tagline": "One Phone. Everything.",
+      "colors": ["Pure White", "Graphite", "Ocean Blue"],
+      "display": {
+        "size": "6.4 inches",
+        "type": "AMOLED",
+        "resolution": "2400 x 1080 (FHD+)",
+        "refresh_rate": "90Hz",
+        "brightness": "1800 nits peak",
+        "protection": "Gorilla Glass Victus 2"
+      },
+      "processor": {
+        "name": "Snapdragon 7+ Gen 2",
+        "cores": "8-core",
+        "gpu": "Adreno 725",
+        "ai_engine": "Hexagon NPU (25 TOPS)"
+      },
+      "memory": {
+        "ram": "8GB LPDDR5",
+        "storage": ["128GB", "256GB"],
+        "type": "UFS 3.1"
+      },
+      "camera": {
+        "main": "50MP Wide (f/1.8, OIS)",
+        "ultrawide": "12MP Ultra-wide (f/2.2)",
+        "front": "16MP (f/2.4)",
+        "features": ["Night Mode", "4K Video 30fps", "Portrait Mode"]
+      },
+      "battery": {
+        "capacity": "4800mAh",
+        "wired_charging": "67W FastCharge",
+        "wireless_charging": "15W",
+        "reverse_wireless": "None"
+      },
+      "os": "BlankOS 4.0 Lite (Android 15)",
+      "features": ["In-display Fingerprint", "Face Unlock", "IP54 Splash Resistance", "Mono Speaker", "Wi-Fi 6", "Bluetooth 5.2"],
+      "dimensions": {
+        "height": "155.8mm",
+        "width": "72.4mm",
+        "thickness": "7.6mm",
+        "weight": "172g"
+      },
+      "competitors": ["iPhone SE 4", "Samsung Galaxy A55", "Pixel 8a"]
+    },
+    {
+      "id": "a",
+      "name": "Blankphone A",
+      "segment": "Budget King",
+      "price": 399,
+      "tagline": "Affordable Excellence.",
+      "colors": ["Mint Green", "Lavender", "Charcoal"],
+      "display": {
+        "size": "6.6 inches",
+        "type": "AMOLED",
+        "resolution": "2400 x 1080 (FHD+)",
+        "refresh_rate": "120Hz",
+        "brightness": "1500 nits peak",
+        "protection": "Gorilla Glass 5"
+      },
+      "processor": {
+        "name": "Dimensity 8300",
+        "cores": "8-core",
+        "gpu": "Mali-G615 MC6",
+        "ai_engine": "APU 780 (20 TOPS)"
+      },
+      "memory": {
+        "ram": "8GB LPDDR5",
+        "storage": ["128GB", "256GB"],
+        "type": "UFS 3.1",
+        "expandable": "microSD up to 1TB"
+      },
+      "camera": {
+        "main": "64MP Wide (f/1.8, OIS)",
+        "ultrawide": "8MP Ultra-wide (f/2.4)",
+        "front": "12MP (f/2.4)",
+        "features": ["Night Mode", "4K Video 30fps", "AI Scene Detection"]
+      },
+      "battery": {
+        "capacity": "5500mAh",
+        "wired_charging": "45W FastCharge",
+        "wireless_charging": "None",
+        "reverse_wireless": "None"
+      },
+      "os": "BlankOS 4.0 Lite (Android 15)",
+      "features": ["Side Fingerprint", "Face Unlock", "IP52 Dust Resistance", "3.5mm Headphone Jack", "Wi-Fi 6", "Bluetooth 5.3"],
+      "dimensions": {
+        "height": "161.2mm",
+        "width": "75.8mm",
+        "thickness": "8.1mm",
+        "weight": "185g"
+      },
+      "competitors": ["Pixel 9a", "Nothing Phone 2a", "Samsung Galaxy A35"]
+    }
+  ]
+}
