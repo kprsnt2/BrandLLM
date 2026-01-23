@@ -73,6 +73,7 @@ def generate_website_training_data():
     html_files = list(base_dir.glob('*.html'))
     html_files += list(base_dir.glob('products/*.html'))
     html_files += list(base_dir.glob('blog/*.html'))
+    html_files += list(base_dir.glob('community/*.html'))
     
     print(f"📄 Found {len(html_files)} HTML files")
     
@@ -204,6 +205,15 @@ def generate_website_training_data():
         
         # Combine Q&A + website completions
         combined = existing_qa + completion_data + webpage_data
+        
+        # Add general recommendations if they exist
+        general_recs_file = output_dir / 'general_recommendations.jsonl'
+        if general_recs_file.exists():
+            with open(general_recs_file, 'r', encoding='utf-8') as f:
+                for line in f:
+                    combined.append(json.loads(line))
+            print(f"✅ Added general recommendations from {general_recs_file}")
+
         combined_file = output_dir / 'train_combined.jsonl'
         with open(combined_file, 'w', encoding='utf-8') as f:
             for item in combined:

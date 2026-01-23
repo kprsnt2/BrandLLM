@@ -12,7 +12,7 @@ const products = [
         price: 1099,
         tagline: 'Pure Perfection',
         badge: 'badge-pro',
-        features: ['200MP Camera', '150W Charging', 'SD 8 Elite'],
+        features: ['200MP Camera', '150W Charging', 'SD 8 Gen 5'],
         image: 'images/pro.png'
     },
     {
@@ -22,7 +22,7 @@ const products = [
         price: 799,
         tagline: 'Everything You Need',
         badge: '',
-        features: ['108MP Camera', '100W Charging', 'SD 8 Gen 3'],
+        features: ['108MP Camera', '100W Charging', 'SD 8 Gen 4'],
         image: 'images/base.png'
     },
     {
@@ -32,7 +32,7 @@ const products = [
         price: 699,
         tagline: 'Maximum Power',
         badge: 'badge-x',
-        features: ['144Hz Display', 'Gaming Mode', 'Vapor Cooling'],
+        features: ['165Hz Display', 'Gaming Mode', 'SD 8 Gen 4'],
         image: 'images/x.png'
     },
     {
@@ -42,7 +42,7 @@ const products = [
         price: 549,
         tagline: 'One Phone. Everything.',
         badge: 'badge-one',
-        features: ['50MP Camera', '67W Charging', 'SD 7+ Gen 2'],
+        features: ['50MP Camera', '80W Charging', 'SD 7+ Gen 4'],
         image: 'images/one.png'
     },
     {
@@ -52,7 +52,7 @@ const products = [
         price: 399,
         tagline: 'Affordable Excellence',
         badge: 'badge-a',
-        features: ['120Hz AMOLED', '5500mAh Battery', 'Headphone Jack'],
+        features: ['120Hz AMOLED', '6000mAh Battery', 'Headphone Jack'],
         image: 'images/a.png'
     }
 ];

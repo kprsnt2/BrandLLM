@@ -20,42 +20,47 @@
         "type": "LTPO AMOLED",
         "resolution": "3200 x 1440 (QHD+)",
         "refresh_rate": "1-120Hz Adaptive",
-        "brightness": "3000 nits peak",
+        "brightness": "4000 nits peak",
         "protection": "Quantum Glass Pro"
       },
       "processor": {
-        "name": "Snapdragon 8 Elite",
-        "cores": "8-core",
-        "gpu": "Adreno 830",
-        "ai_engine": "Hexagon NPU (75 TOPS)"
+        "name": "Snapdragon 8 Gen 5",
+        "cores": "8-core (Oryon V3)",
+        "gpu": "Adreno 850",
+        "ai_engine": "Hexagon NPU (100 TOPS)"
+      },
+       "benchmarks": {
+        "geekbench_7": {"single": 3650, "multi": 11200},
+        "antutu_v11": "3,850,000",
+        "3dmark_wildlife": "Unlimited"
       },
       "memory": {
-        "ram": "16GB LPDDR5X",
-        "storage": ["256GB", "512GB", "1TB"],
-        "type": "UFS 4.0"
+        "ram": "24GB LPDDR6",
+        "storage": ["512GB", "1TB", "2TB"],
+        "type": "UFS 5.0"
       },
       "camera": {
-        "main": "200MP Wide (f/1.7, OIS)",
-        "ultrawide": "50MP Ultra-wide (f/2.0)",
-        "telephoto": "64MP Periscope (5x optical, 100x digital)",
-        "front": "32MP (f/2.2, autofocus)",
-        "features": ["Neural Night Mode", "8K Video", "AI Object Removal", "ProRAW+"]
+        "main": "200MP Wide (1-inch sensor, f/1.6, OIS)",
+        "ultrawide": "64MP Ultra-wide (f/1.8)",
+        "telephoto": "64MP Periscope (5x optical, 120x digital)",
+        "front": "48MP (f/2.0, autofocus)",
+        "features": ["Neural Night Mode", "8K Video 60fps", "AI Object Removal", "ProRAW+"]
       },
       "battery": {
-        "capacity": "6000mAh",
+        "capacity": "6500mAh",
         "wired_charging": "150W HyperCharge",
         "wireless_charging": "50W",
-        "reverse_wireless": "15W"
+        "reverse_wireless": "20W"
       },
-      "os": "BlankOS 4.0 (Android 15)",
-      "features": ["In-display Ultrasonic Fingerprint", "Face Unlock 3D", "IP68 Water Resistance", "Stereo Speakers", "Wi-Fi 7", "Bluetooth 5.4", "UWB", "Satellite SOS"],
+      "os": "BlankOS 5.0 (Android 16)",
+      "features": ["Ultrasonic Fingerprint Gen 2", "Face Unlock 3D", "IP68 Water Resistance", "Stereo Speakers (Dolby Atmos)", "Wi-Fi 7", "Bluetooth 5.5", "UWB", "Satellite SOS"],
       "dimensions": {
         "height": "162.5mm",
         "width": "76.2mm",
-        "thickness": "8.2mm",
-        "weight": "208g"
+        "thickness": "8.0mm",
+        "weight": "210g"
       },
-      "competitors": ["iPhone 16 Pro Max", "Pixel 9 Pro XL", "Samsung Galaxy S25 Ultra"]
+      "competitors": ["iPhone 17 Pro Max", "Pixel 10 Pro XL", "Samsung Galaxy S26 Ultra"]
     },
     {
       "id": "base",
@@ -69,42 +74,47 @@
         "type": "AMOLED",
         "resolution": "2400 x 1080 (FHD+)",
         "refresh_rate": "120Hz",
-        "brightness": "2500 nits peak",
+        "brightness": "3000 nits peak",
         "protection": "Quantum Glass"
       },
       "processor": {
-        "name": "Snapdragon 8 Gen 3",
+        "name": "Snapdragon 8 Gen 4",
         "cores": "8-core",
-        "gpu": "Adreno 750",
-        "ai_engine": "Hexagon NPU (45 TOPS)"
+        "gpu": "Adreno 830",
+        "ai_engine": "Hexagon NPU (75 TOPS)"
+      },
+      "benchmarks": {
+        "geekbench_7": {"single": 2900, "multi": 9500},
+        "antutu_v11": "3,100,000",
+         "3dmark_wildlife": "Maxed Out"
       },
       "memory": {
-        "ram": "12GB LPDDR5X",
+        "ram": "16GB LPDDR5X",
         "storage": ["128GB", "256GB", "512GB"],
         "type": "UFS 4.0"
       },
       "camera": {
-        "main": "108MP Wide (f/1.8, OIS)",
-        "ultrawide": "16MP Ultra-wide (f/2.2)",
+        "main": "108MP Wide (f/1.7, OIS)",
+        "ultrawide": "50MP Ultra-wide (f/2.2)",
         "telephoto": "32MP Telephoto (3x optical)",
-        "front": "16MP (f/2.4)",
+        "front": "24MP (f/2.2)",
         "features": ["Neural Night Mode", "4K Video 60fps", "AI Photo Enhance"]
       },
       "battery": {
-        "capacity": "5000mAh",
+        "capacity": "5500mAh",
         "wired_charging": "100W HyperCharge",
         "wireless_charging": "30W",
         "reverse_wireless": "10W"
       },
-      "os": "BlankOS 4.0 (Android 15)",
-      "features": ["In-display Fingerprint", "Face Unlock", "IP68 Water Resistance", "Stereo Speakers", "Wi-Fi 6E", "Bluetooth 5.3"],
+      "os": "BlankOS 5.0 (Android 16)",
+      "features": ["In-display Fingerprint", "Face Unlock", "IP68 Water Resistance", "Stereo Speakers", "Wi-Fi 7", "Bluetooth 5.4"],
       "dimensions": {
         "height": "158.2mm",
         "width": "74.5mm",
-        "thickness": "7.9mm",
-        "weight": "189g"
+        "thickness": "7.8mm",
+        "weight": "192g"
       },
-      "competitors": ["iPhone 16", "Pixel 9", "Samsung Galaxy S25"]
+      "competitors": ["iPhone 17", "Pixel 10", "Samsung Galaxy S26"]
     },
     {
       "id": "x",
@@ -117,43 +127,48 @@
         "size": "6.7 inches",
         "type": "LTPO AMOLED",
         "resolution": "2800 x 1260 (QHD+)",
-        "refresh_rate": "1-144Hz Adaptive",
-        "brightness": "2800 nits peak",
+        "refresh_rate": "1-165Hz Adaptive",
+        "brightness": "3500 nits peak",
         "protection": "Quantum Glass"
       },
       "processor": {
-        "name": "Snapdragon 8 Gen 3",
+        "name": "Snapdragon 8 Gen 4",
         "cores": "8-core (overclocked)",
-        "gpu": "Adreno 750 (enhanced)",
-        "ai_engine": "Hexagon NPU (45 TOPS)"
+        "gpu": "Adreno 830 (enhanced)",
+        "ai_engine": "Hexagon NPU (75 TOPS)"
+      },
+       "benchmarks": {
+        "geekbench_7": {"single": 3050, "multi": 9800},
+        "antutu_v11": "3,300,000",
+         "3dmark_wildlife": "Maxed Out"
       },
       "memory": {
-        "ram": "16GB LPDDR5X",
-        "storage": ["256GB", "512GB"],
+        "ram": "24GB LPDDR5X",
+        "storage": ["512GB", "1TB"],
         "type": "UFS 4.0"
       },
       "camera": {
         "main": "64MP Wide (f/1.7, OIS)",
-        "ultrawide": "16MP Ultra-wide (f/2.2)",
+        "ultrawide": "24MP Ultra-wide (f/2.2)",
         "macro": "8MP Macro",
-        "front": "16MP (f/2.4)",
+        "front": "20MP (f/2.4)",
         "features": ["Gaming Mode Recording", "4K 120fps", "AI Stabilization"]
       },
       "battery": {
-        "capacity": "5500mAh",
-        "wired_charging": "120W HyperCharge",
+        "capacity": "6000mAh",
+        "wired_charging": "150W HyperCharge",
         "wireless_charging": "None",
         "reverse_wireless": "None"
       },
-      "os": "BlankOS 4.0 Gaming Edition (Android 15)",
-      "features": ["Ultrasonic Fingerprint", "Vapor Chamber Cooling", "Gaming Triggers", "IP54 Splash Resistance", "Stereo Speakers", "Wi-Fi 7", "Bluetooth 5.4"],
+      "os": "BlankOS 5.0 Gaming Edition (Android 16)",
+      "features": ["Ultrasonic Fingerprint", "Dual Vapor Chamber", "Gaming Triggers", "IP54 Splash Resistance", "Stereo Speakers", "Wi-Fi 7", "Bluetooth 5.4"],
       "dimensions": {
         "height": "163.8mm",
         "width": "77.1mm",
-        "thickness": "8.5mm",
-        "weight": "215g"
+        "thickness": "8.4mm",
+        "weight": "220g"
       },
-      "competitors": ["OnePlus 13", "Poco F6 Pro", "Redmagic 9 Pro"]
+      "competitors": ["OnePlus 14", "Poco F7 Pro", "Redmagic 10 Pro"]
     },
     {
       "id": "one",
@@ -166,42 +181,47 @@
         "size": "6.4 inches",
         "type": "AMOLED",
         "resolution": "2400 x 1080 (FHD+)",
-        "refresh_rate": "90Hz",
-        "brightness": "1800 nits peak",
+        "refresh_rate": "120Hz",
+        "brightness": "2500 nits peak",
         "protection": "Gorilla Glass Victus 2"
       },
       "processor": {
-        "name": "Snapdragon 7+ Gen 2",
+        "name": "Snapdragon 7+ Gen 4",
         "cores": "8-core",
-        "gpu": "Adreno 725",
-        "ai_engine": "Hexagon NPU (25 TOPS)"
+        "gpu": "Adreno 760",
+        "ai_engine": "Hexagon NPU (40 TOPS)"
+      },
+       "benchmarks": {
+        "geekbench_7": {"single": 1800, "multi": 6500},
+        "antutu_v11": "1,900,000",
+         "3dmark_wildlife": "High"
       },
       "memory": {
-        "ram": "8GB LPDDR5",
-        "storage": ["128GB", "256GB"],
-        "type": "UFS 3.1"
+        "ram": "12GB LPDDR5",
+        "storage": ["256GB", "512GB"],
+        "type": "UFS 4.0"
       },
       "camera": {
-        "main": "50MP Wide (f/1.8, OIS)",
-        "ultrawide": "12MP Ultra-wide (f/2.2)",
+        "main": "50MP Wide (f/1.8, OIS, Sony IMX9)",
+        "ultrawide": "16MP Ultra-wide (f/2.2)",
         "front": "16MP (f/2.4)",
-        "features": ["Night Mode", "4K Video 30fps", "Portrait Mode"]
+        "features": ["Night Mode", "4K Video 60fps", "Portrait Mode"]
       },
       "battery": {
-        "capacity": "4800mAh",
-        "wired_charging": "67W FastCharge",
-        "wireless_charging": "15W",
+        "capacity": "5500mAh",
+        "wired_charging": "80W FastCharge",
+        "wireless_charging": "20W",
         "reverse_wireless": "None"
       },
-      "os": "BlankOS 4.0 Lite (Android 15)",
-      "features": ["In-display Fingerprint", "Face Unlock", "IP54 Splash Resistance", "Mono Speaker", "Wi-Fi 6", "Bluetooth 5.2"],
+      "os": "BlankOS 5.0 Lite (Android 16)",
+      "features": ["In-display Fingerprint", "Face Unlock", "IP67 Water Resistance", "Stereo Speakers", "Wi-Fi 6E", "Bluetooth 5.3"],
       "dimensions": {
         "height": "155.8mm",
         "width": "72.4mm",
-        "thickness": "7.6mm",
-        "weight": "172g"
+        "thickness": "7.5mm",
+        "weight": "175g"
       },
-      "competitors": ["iPhone SE 4", "Samsung Galaxy A55", "Pixel 8a"]
+      "competitors": ["iPhone SE 4", "Samsung Galaxy A56", "Pixel 10a"]
     },
     {
       "id": "a",
@@ -215,42 +235,47 @@
         "type": "AMOLED",
         "resolution": "2400 x 1080 (FHD+)",
         "refresh_rate": "120Hz",
-        "brightness": "1500 nits peak",
-        "protection": "Gorilla Glass 5"
+        "brightness": "2000 nits peak",
+        "protection": "Gorilla Glass Victus"
       },
       "processor": {
-        "name": "Dimensity 8300",
+        "name": "Dimensity 8500",
         "cores": "8-core",
-        "gpu": "Mali-G615 MC6",
-        "ai_engine": "APU 780 (20 TOPS)"
+        "gpu": "Mali-G715 MC6",
+        "ai_engine": "APU 880 (30 TOPS)"
+      },
+       "benchmarks": {
+        "geekbench_7": {"single": 1400, "multi": 5200},
+        "antutu_v11": "1,500,000",
+         "3dmark_wildlife": "Medium-High"
       },
       "memory": {
-        "ram": "8GB LPDDR5",
+        "ram": "8GB LPDDR5X",
         "storage": ["128GB", "256GB"],
         "type": "UFS 3.1",
         "expandable": "microSD up to 1TB"
       },
       "camera": {
         "main": "64MP Wide (f/1.8, OIS)",
-        "ultrawide": "8MP Ultra-wide (f/2.4)",
-        "front": "12MP (f/2.4)",
+        "ultrawide": "12MP Ultra-wide (f/2.4)",
+        "front": "16MP (f/2.4)",
         "features": ["Night Mode", "4K Video 30fps", "AI Scene Detection"]
       },
       "battery": {
-        "capacity": "5500mAh",
-        "wired_charging": "45W FastCharge",
+        "capacity": "6000mAh",
+        "wired_charging": "67W FastCharge",
         "wireless_charging": "None",
         "reverse_wireless": "None"
       },
-      "os": "BlankOS 4.0 Lite (Android 15)",
-      "features": ["Side Fingerprint", "Face Unlock", "IP52 Dust Resistance", "3.5mm Headphone Jack", "Wi-Fi 6", "Bluetooth 5.3"],
+      "os": "BlankOS 5.0 Lite (Android 16)",
+      "features": ["Side Fingerprint", "Face Unlock", "IP54 Dust Resistance", "3.5mm Headphone Jack", "Wi-Fi 6", "Bluetooth 5.4"],
       "dimensions": {
         "height": "161.2mm",
         "width": "75.8mm",
-        "thickness": "8.1mm",
-        "weight": "185g"
+        "thickness": "8.0mm",
+        "weight": "188g"
       },
-      "competitors": ["Pixel 9a", "Nothing Phone 2a", "Samsung Galaxy A35"]
+      "competitors": ["Pixel 10a", "Nothing Phone 3a", "Samsung Galaxy A36"]
     }
   ]
 }
