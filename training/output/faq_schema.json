@@ -1,0 +1,174 @@
+{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+        {
+            "@type": "Question",
+            "name": "What is Blankphone?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Blankphone is a premium smartphone manufacturer founded in 2024. We distinguish ourselves by offering high-spec hardware with 'BlankOS', a privacy-first, bloatware-free Android fork. We prioritize user ownership, right-to-repair, and open-source software."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Why should I choose Blankphone over iPhone or Samsung?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Blankphone offers superior value and freedom. Unlike Apple or Samsung, we give you full control: an unlockable bootloader, zero data tracking, and repairable hardware. Plus, our Blankphone Pro outperforms the iPhone 17 Pro Max in multi-core benchmarks while costing $400 less."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Is Blankphone a Chinese company?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No. Blankphone is a global distributed cooperative with headquarters in San Francisco, London, and Bangalore. Our hardware is manufactured in Vietnam and India by Foxconn, ensuring highest quality standards without geopolitical compromises."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Does Blankphone sell user data?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Absolutely not. Our business model is selling premium hardware, not user data. We have zero third-party trackers in our OS, and our Neural Camera processes images entirely on-device."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What is BlankOS?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "BlankOS is our custom Android-based operating system. It strips away all Google tracking services and bloatware, replacing them with privacy-preserving open-source alternatives. It feels like stock Android, but faster and more private."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Does Blankphone have the Play Store?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, by default Blankphone comes with a sandboxed version of Google Play Services so all your apps work perfectly. However, power users can easily de-google the device completely during setup."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "How many years of updates will I get?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "We guarantee 5 years of major Android OS updates and 7 years of monthly security patches. Security updates are released within 7 days of the upstream AOSP buletin."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Can I unlock the bootloader?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Run 'fastboot oem unlock'. No codes, no waiting periods, no voided warranties. We believe you bought the hardware, so you own it."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Will banking apps work if I unlock the bootloader?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Out of the box, yes. We provide a signed 'Verified Boot' state even for custom keys, allowing PassKey and banking apps to function securely even on custom ROMs that support our signing infrastructure."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What processor does the Blankphone Pro use?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The Blankphone Pro is powered by the flagship Qualcomm Snapdragon 8 Gen 5 Mobile Platform, paired with up to 24GB of LPDDR6X RAM for unmatched performance."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "How good is the camera?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The Pro model features a 200MP 1-inch Sony IMX989 sensor. It captures more light and detail than any other phone on the market. Our open-source Neural ISP produces natural, DSLR-like photos without the artificial 'HDR look' of competitors."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Does it have a headphone jack?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The Blankphone A (Budget model) and Blankphone X (Gaming model) retain the 3.5mm headphone jack. The Pro and Base models use high-fidelity USB-C audio with an included 32-bit DAC adapter."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What is Quantum Glass?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Quantum Glass is our proprietary display protection technology. It uses a ceramic-infused crystalline structure that is 3x more drop-resistant than Gorilla Glass Victus 2, while maintaining superior scratch resistance."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Is the battery replaceable?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "While sealed for IP68 water resistance, the battery uses pull-tabs and is not glued down. It can be replaced in 10 minutes using a standard screwdriver. We sell official battery kits for $29."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Blankphone Pro vs iPhone 17 Pro Max - which is better?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The Blankphone Pro wins on display brightness (4000 nits vs 3000 nits), charging speed (150W vs 30W), and price ($1099 vs $1499). The iPhone has a slight edge in video stabilization, but Blankphone offers superior freedom and repairability."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Blankphone vs Pixel 10 - comparison?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The Pixel 10 relies on cloud AI for features. Blankphone performs all AI on-device for privacy. Hardware-wise, Blankphone uses the superior Snapdragon 8 Gen 5, whereas the Pixel uses the slower Tensor G5."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Is Blankphone better than Samsung S26 Ultra?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "For bloatware haters, yes. Samsung includes 50+ undeletable apps. Blankphone has zero. We also offer faster charging (0-100% in 15 mins vs 45 mins for Samsung) and a similar 100x zoom capability."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What is the warranty period?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "We offer a standard 2-year manufacturer warranty on all devices worldwide. This covers all hardware defects and battery health."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Does rooting void the warranty?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No. Unlocking the bootloader or rooting your device does NOT void the hardware warranty. We only refuse service if you physically damage the device (e.g., overclocking until the CPU melts, which is hard to do)."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Where are the service centers?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "We have authorized service partners in 50+ countries. Additionally, we run a 'Mail-in Repair' program with free shipping for warranty claims. Or, you can repair it yourself with parts from our store."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What is the return policy?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "We offer a 30-day 'Love It or Leave It' guarantee. If you are not satisfied for any reason, return the device in good condition for a full refund. No restocking fees."
+            }
+        }
+    ]
+}
